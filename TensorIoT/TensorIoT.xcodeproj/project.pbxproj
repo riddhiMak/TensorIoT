@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE33FAFC339C635C7C782F6 /* Pods_TensorIoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF2E557C7D4BA78BCC7E59D /* Pods_TensorIoT.framework */; };
+		B013E10B2ACE7A21008A0AFB /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B013E10A2ACE7A21008A0AFB /* Toast.swift */; };
+		B03361932ACD624A0005EEA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03361922ACD624A0005EEA7 /* AppDelegate.swift */; };
+		B03361972ACD624B0005EEA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03361962ACD624B0005EEA7 /* ViewController.swift */; };
+		B033619A2ACD624B0005EEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03361982ACD624B0005EEA7 /* Main.storyboard */; };
+		B033619C2ACD624C0005EEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B033619B2ACD624C0005EEA7 /* Assets.xcassets */; };
+		B033619F2ACD624C0005EEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B033619D2ACD624C0005EEA7 /* LaunchScreen.storyboard */; };
+		B03361A82ACD63930005EEA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B03361A72ACD63930005EEA7 /* GoogleService-Info.plist */; };
+		B0C9983A2ACD6B2B00EEDBA5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C998392ACD6B2B00EEDBA5 /* Login.storyboard */; };
+		B0C9983C2ACD6B3E00EEDBA5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9983B2ACD6B3E00EEDBA5 /* SignUpViewController.swift */; };
+		B0C9983F2ACD6B5900EEDBA5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9983E2ACD6B5900EEDBA5 /* LoginViewController.swift */; };
+		B0C998422ACD6C5C00EEDBA5 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998412ACD6C5C00EEDBA5 /* UIStoryboard+Extension.swift */; };
+		B0C998452ACD6C9700EEDBA5 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998442ACD6C9700EEDBA5 /* SplashViewController.swift */; };
+		B0C9984C2ACD6FFD00EEDBA5 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9984B2ACD6FFD00EEDBA5 /* UIViewController + Extension.swift */; };
+		B0C9984E2ACD70E600EEDBA5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9984D2ACD70E600EEDBA5 /* Common.swift */; };
+		B0C998502ACD710B00EEDBA5 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9984F2ACD710B00EEDBA5 /* Text.swift */; };
+		B0C998522ACD7D8800EEDBA5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998512ACD7D8800EEDBA5 /* User.swift */; };
+		B0C998552ACD7E9A00EEDBA5 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998542ACD7E9A00EEDBA5 /* DatabaseManager.swift */; };
+		B0C9985C2ACD977500EEDBA5 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C9985B2ACD977500EEDBA5 /* Profile.storyboard */; };
+		B0C9985E2ACD977C00EEDBA5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9985D2ACD977C00EEDBA5 /* ProfileViewController.swift */; };
+		B0C998602ACDAA8A00EEDBA5 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9985F2ACDAA8A00EEDBA5 /* APIService.swift */; };
+		B0C998652ACDAC0B00EEDBA5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998642ACDAC0B00EEDBA5 /* Weather.swift */; };
+		B0C998682ACDD3BE00EEDBA5 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998672ACDD3BE00EEDBA5 /* TopView.swift */; };
+		B0C9986A2ACDD3C500EEDBA5 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998692ACDD3C500EEDBA5 /* BottomView.swift */; };
+		B0C9986C2ACDDFF700EEDBA5 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9986B2ACDDFF700EEDBA5 /* Date + Extension.swift */; };
+		B0C9986E2ACDE0A600EEDBA5 /* NSUserNotification + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9986D2ACDE0A600EEDBA5 /* NSUserNotification + Extension.swift */; };
+		B0C998702ACDED9400EEDBA5 /* UITextField + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9986F2ACDED9300EEDBA5 /* UITextField + Extension.swift */; };
+		B0C998722ACDF52400EEDBA5 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998712ACDF52400EEDBA5 /* WeatherDetailViewController.swift */; };
+		B0C998752ACDF5E200EEDBA5 /* ForcastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998732ACDF5E200EEDBA5 /* ForcastCollectionViewCell.swift */; };
+		B0C998762ACDF5E200EEDBA5 /* ForcastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C998742ACDF5E200EEDBA5 /* ForcastCollectionViewCell.xib */; };
+		B0C998782ACDFC8D00EEDBA5 /* GlobalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C998772ACDFC8D00EEDBA5 /* GlobalExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FA88890DFB8EC5F48B2E6F4 /* Pods-TensorIoT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorIoT.release.xcconfig"; path = "Target Support Files/Pods-TensorIoT/Pods-TensorIoT.release.xcconfig"; sourceTree = "<group>"; };
+		B013E10A2ACE7A21008A0AFB /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		B033618F2ACD624A0005EEA7 /* TensorIoT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TensorIoT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03361922ACD624A0005EEA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B03361962ACD624B0005EEA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B03361992ACD624B0005EEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B033619B2ACD624C0005EEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B033619E2ACD624C0005EEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B03361A02ACD624C0005EEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03361A72ACD63930005EEA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0C998392ACD6B2B00EEDBA5 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B0C9983B2ACD6B3E00EEDBA5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B0C9983E2ACD6B5900EEDBA5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B0C998412ACD6C5C00EEDBA5 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		B0C998442ACD6C9700EEDBA5 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B0C9984B2ACD6FFD00EEDBA5 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		B0C9984D2ACD70E600EEDBA5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		B0C9984F2ACD710B00EEDBA5 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		B0C998512ACD7D8800EEDBA5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B0C998542ACD7E9A00EEDBA5 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		B0C9985B2ACD977500EEDBA5 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		B0C9985D2ACD977C00EEDBA5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B0C9985F2ACDAA8A00EEDBA5 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B0C998642ACDAC0B00EEDBA5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		B0C998672ACDD3BE00EEDBA5 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		B0C998692ACDD3C500EEDBA5 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		B0C9986B2ACDDFF700EEDBA5 /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		B0C9986D2ACDE0A600EEDBA5 /* NSUserNotification + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSUserNotification + Extension.swift"; sourceTree = "<group>"; };
+		B0C9986F2ACDED9300EEDBA5 /* UITextField + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extension.swift"; sourceTree = "<group>"; };
+		B0C998712ACDF52400EEDBA5 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		B0C998732ACDF5E200EEDBA5 /* ForcastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastCollectionViewCell.swift; sourceTree = "<group>"; };
+		B0C998742ACDF5E200EEDBA5 /* ForcastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForcastCollectionViewCell.xib; sourceTree = "<group>"; };
+		B0C998772ACDFC8D00EEDBA5 /* GlobalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalExtensions.swift; sourceTree = "<group>"; };
+		C3CB56FF6282C4B5AE2B84BE /* Pods-TensorIoT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorIoT.debug.xcconfig"; path = "Target Support Files/Pods-TensorIoT/Pods-TensorIoT.debug.xcconfig"; sourceTree = "<group>"; };
+		DAF2E557C7D4BA78BCC7E59D /* Pods_TensorIoT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorIoT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B033618C2ACD624A0005EEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE33FAFC339C635C7C782F6 /* Pods_TensorIoT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BFF7B53D6928C7F4EAD3723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF2E557C7D4BA78BCC7E59D /* Pods_TensorIoT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96922B44C8560D980864BE50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB56FF6282C4B5AE2B84BE /* Pods-TensorIoT.debug.xcconfig */,
+				2FA88890DFB8EC5F48B2E6F4 /* Pods-TensorIoT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B03361862ACD624A0005EEA7 = {
+			isa = PBXGroup;
+			children = (
+				B03361912ACD624A0005EEA7 /* TensorIoT */,
+				B03361902ACD624A0005EEA7 /* Products */,
+				96922B44C8560D980864BE50 /* Pods */,
+				3BFF7B53D6928C7F4EAD3723 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B03361902ACD624A0005EEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B033618F2ACD624A0005EEA7 /* TensorIoT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B03361912ACD624A0005EEA7 /* TensorIoT */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998402ACD6C3500EEDBA5 /* Utilities */,
+				B0C998342ACD6AF500EEDBA5 /* Modules */,
+				B03361A62ACD63880005EEA7 /* Resource */,
+				B03361922ACD624A0005EEA7 /* AppDelegate.swift */,
+				B03361962ACD624B0005EEA7 /* ViewController.swift */,
+				B03361982ACD624B0005EEA7 /* Main.storyboard */,
+				B033619B2ACD624C0005EEA7 /* Assets.xcassets */,
+				B033619D2ACD624C0005EEA7 /* LaunchScreen.storyboard */,
+				B03361A02ACD624C0005EEA7 /* Info.plist */,
+			);
+			path = TensorIoT;
+			sourceTree = "<group>";
+		};
+		B03361A62ACD63880005EEA7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998532ACD7E8E00EEDBA5 /* Helper */,
+				B03361A72ACD63930005EEA7 /* GoogleService-Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B0C998342ACD6AF500EEDBA5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998582ACD975D00EEDBA5 /* Profile */,
+				B0C998432ACD6C8E00EEDBA5 /* Splash */,
+				B0C998352ACD6B0000EEDBA5 /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B0C998352ACD6B0000EEDBA5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998382ACD6B1C00EEDBA5 /* View */,
+				B0C998372ACD6B0E00EEDBA5 /* Model */,
+				B0C998362ACD6B0900EEDBA5 /* Controller */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B0C998362ACD6B0900EEDBA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0C9983B2ACD6B3E00EEDBA5 /* SignUpViewController.swift */,
+				B0C9983E2ACD6B5900EEDBA5 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B0C998372ACD6B0E00EEDBA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998512ACD7D8800EEDBA5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0C998382ACD6B1C00EEDBA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998392ACD6B2B00EEDBA5 /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0C998402ACD6C3500EEDBA5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998412ACD6C5C00EEDBA5 /* UIStoryboard+Extension.swift */,
+				B0C9984B2ACD6FFD00EEDBA5 /* UIViewController + Extension.swift */,
+				B0C9984D2ACD70E600EEDBA5 /* Common.swift */,
+				B0C9984F2ACD710B00EEDBA5 /* Text.swift */,
+				B0C9986B2ACDDFF700EEDBA5 /* Date + Extension.swift */,
+				B0C9986D2ACDE0A600EEDBA5 /* NSUserNotification + Extension.swift */,
+				B0C9986F2ACDED9300EEDBA5 /* UITextField + Extension.swift */,
+				B0C998772ACDFC8D00EEDBA5 /* GlobalExtensions.swift */,
+				B013E10A2ACE7A21008A0AFB /* Toast.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B0C998432ACD6C8E00EEDBA5 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998442ACD6C9700EEDBA5 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B0C998532ACD7E8E00EEDBA5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998542ACD7E9A00EEDBA5 /* DatabaseManager.swift */,
+				B0C9985F2ACDAA8A00EEDBA5 /* APIService.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B0C998582ACD975D00EEDBA5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998662ACDD39700EEDBA5 /* CustomView */,
+				B0C9985A2ACD976A00EEDBA5 /* Controller */,
+				B0C998632ACDAC0000EEDBA5 /* Model */,
+				B0C998592ACD976400EEDBA5 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B0C998592ACD976400EEDBA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0C9985B2ACD977500EEDBA5 /* Profile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0C9985A2ACD976A00EEDBA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0C9985D2ACD977C00EEDBA5 /* ProfileViewController.swift */,
+				B0C998712ACDF52400EEDBA5 /* WeatherDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B0C998632ACDAC0000EEDBA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998642ACDAC0B00EEDBA5 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0C998662ACDD39700EEDBA5 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				B0C998672ACDD3BE00EEDBA5 /* TopView.swift */,
+				B0C998692ACDD3C500EEDBA5 /* BottomView.swift */,
+				B0C998732ACDF5E200EEDBA5 /* ForcastCollectionViewCell.swift */,
+				B0C998742ACDF5E200EEDBA5 /* ForcastCollectionViewCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B033618E2ACD624A0005EEA7 /* TensorIoT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03361A32ACD624C0005EEA7 /* Build configuration list for PBXNativeTarget "TensorIoT" */;
+			buildPhases = (
+				071632A590D1DE981BBFD6C8 /* [CP] Check Pods Manifest.lock */,
+				B033618B2ACD624A0005EEA7 /* Sources */,
+				B033618C2ACD624A0005EEA7 /* Frameworks */,
+				B033618D2ACD624A0005EEA7 /* Resources */,
+				DD0C8721FE22D79622CB30D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TensorIoT;
+			productName = TensorIoT;
+			productReference = B033618F2ACD624A0005EEA7 /* TensorIoT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B03361872ACD624A0005EEA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B033618E2ACD624A0005EEA7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B033618A2ACD624A0005EEA7 /* Build configuration list for PBXProject "TensorIoT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B03361862ACD624A0005EEA7;
+			productRefGroup = B03361902ACD624A0005EEA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B033618E2ACD624A0005EEA7 /* TensorIoT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B033618D2ACD624A0005EEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C9985C2ACD977500EEDBA5 /* Profile.storyboard in Resources */,
+				B033619F2ACD624C0005EEA7 /* LaunchScreen.storyboard in Resources */,
+				B03361A82ACD63930005EEA7 /* GoogleService-Info.plist in Resources */,
+				B0C998762ACDF5E200EEDBA5 /* ForcastCollectionViewCell.xib in Resources */,
+				B033619C2ACD624C0005EEA7 /* Assets.xcassets in Resources */,
+				B0C9983A2ACD6B2B00EEDBA5 /* Login.storyboard in Resources */,
+				B033619A2ACD624B0005EEA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		071632A590D1DE981BBFD6C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TensorIoT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0C8721FE22D79622CB30D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TensorIoT/Pods-TensorIoT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TensorIoT/Pods-TensorIoT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TensorIoT/Pods-TensorIoT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B033618B2ACD624A0005EEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03361972ACD624B0005EEA7 /* ViewController.swift in Sources */,
+				B013E10B2ACE7A21008A0AFB /* Toast.swift in Sources */,
+				B0C998552ACD7E9A00EEDBA5 /* DatabaseManager.swift in Sources */,
+				B03361932ACD624A0005EEA7 /* AppDelegate.swift in Sources */,
+				B0C998722ACDF52400EEDBA5 /* WeatherDetailViewController.swift in Sources */,
+				B0C998652ACDAC0B00EEDBA5 /* Weather.swift in Sources */,
+				B0C9984C2ACD6FFD00EEDBA5 /* UIViewController + Extension.swift in Sources */,
+				B0C998682ACDD3BE00EEDBA5 /* TopView.swift in Sources */,
+				B0C998422ACD6C5C00EEDBA5 /* UIStoryboard+Extension.swift in Sources */,
+				B0C998752ACDF5E200EEDBA5 /* ForcastCollectionViewCell.swift in Sources */,
+				B0C998502ACD710B00EEDBA5 /* Text.swift in Sources */,
+				B0C9984E2ACD70E600EEDBA5 /* Common.swift in Sources */,
+				B0C998602ACDAA8A00EEDBA5 /* APIService.swift in Sources */,
+				B0C998702ACDED9400EEDBA5 /* UITextField + Extension.swift in Sources */,
+				B0C9986C2ACDDFF700EEDBA5 /* Date + Extension.swift in Sources */,
+				B0C9983C2ACD6B3E00EEDBA5 /* SignUpViewController.swift in Sources */,
+				B0C9986E2ACDE0A600EEDBA5 /* NSUserNotification + Extension.swift in Sources */,
+				B0C9983F2ACD6B5900EEDBA5 /* LoginViewController.swift in Sources */,
+				B0C9985E2ACD977C00EEDBA5 /* ProfileViewController.swift in Sources */,
+				B0C998522ACD7D8800EEDBA5 /* User.swift in Sources */,
+				B0C998782ACDFC8D00EEDBA5 /* GlobalExtensions.swift in Sources */,
+				B0C9986A2ACDD3C500EEDBA5 /* BottomView.swift in Sources */,
+				B0C998452ACD6C9700EEDBA5 /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B03361982ACD624B0005EEA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B03361992ACD624B0005EEA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B033619D2ACD624C0005EEA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B033619E2ACD624C0005EEA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B03361A12ACD624C0005EEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B03361A22ACD624C0005EEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B03361A42ACD624C0005EEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CB56FF6282C4B5AE2B84BE /* Pods-TensorIoT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CSW9G39KYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TensorIoT/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need this permission to capture photo for user profile picture.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need location to show your city's weather";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Need location to show your city's weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need location to show your city's weather";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need this permission to choose photo for user profile picture.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TensorIoT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B03361A52ACD624C0005EEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA88890DFB8EC5F48B2E6F4 /* Pods-TensorIoT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CSW9G39KYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TensorIoT/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need this permission to capture photo for user profile picture.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need location to show your city's weather";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Need location to show your city's weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need location to show your city's weather";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need this permission to choose photo for user profile picture.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TensorIoT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B033618A2ACD624A0005EEA7 /* Build configuration list for PBXProject "TensorIoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03361A12ACD624C0005EEA7 /* Debug */,
+				B03361A22ACD624C0005EEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B03361A32ACD624C0005EEA7 /* Build configuration list for PBXNativeTarget "TensorIoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03361A42ACD624C0005EEA7 /* Debug */,
+				B03361A52ACD624C0005EEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B03361872ACD624A0005EEA7 /* Project object */;
+}

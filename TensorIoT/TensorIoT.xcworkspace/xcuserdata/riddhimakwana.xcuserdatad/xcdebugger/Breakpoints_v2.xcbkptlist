@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "083D1CC0-AA17-40D9-9D23-78E5FD1A306D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F34CE384-6EE6-4EDF-99C2-08778B55E1AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TensorIoT/Resource/Helper/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "getWeather(onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67C532DD-8A5A-4DAB-8C14-0A59F22C88E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TensorIoT/Modules/Profile/Controller/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67C532DD-8A5A-4DAB-8C14-0A59F22C88E2 - dd836376cffa1979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in TensorIoT.ProfileViewController.fetchData() -&gt; ()"
+                  moduleName = "TensorIoT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/riddhimakwana/Desktop/TensorIoT/TensorIoT/Modules/Profile/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "67C532DD-8A5A-4DAB-8C14-0A59F22C88E2 - dd836376cffa1979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in TensorIoT.ProfileViewController.fetchData() -&gt; ()"
+                  moduleName = "TensorIoT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/riddhimakwana/Desktop/TensorIoT/TensorIoT/Modules/Profile/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "746C67FB-BC6F-4AC3-ACC8-BBA713F8BA4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TensorIoT/Modules/Profile/Controller/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "746C67FB-BC6F-4AC3-ACC8-BBA713F8BA4B - 50913216451d4326"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TensorIoT.ProfileViewController.fetchData() -&gt; ()"
+                  moduleName = "TensorIoT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/riddhimakwana/Desktop/TensorIoT/TensorIoT/Modules/Profile/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "2000">
+               </Location>
+               <Location
+                  uuid = "746C67FB-BC6F-4AC3-ACC8-BBA713F8BA4B - dd836376cffa18bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in TensorIoT.ProfileViewController.fetchData() -&gt; ()"
+                  moduleName = "TensorIoT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/riddhimakwana/Desktop/TensorIoT/TensorIoT/Modules/Profile/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B27F32D0-85CF-487D-A272-0ADF01EBB703"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TensorIoT/Resource/Helper/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getWeather(onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC369A28-FC8A-4934-B563-3E567E13BEF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TensorIoT/Resource/Helper/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchDataFromDatabase(tName:child:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DC369A28-FC8A-4934-B563-3E567E13BEF3 - 7182bdb2341ce44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TensorIoT.DatabaseManager.fetchDataFromDatabase(tName: Swift.String, child: Swift.String, completion: (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TensorIoT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/riddhimakwana/Desktop/TensorIoT/TensorIoT/Resource/Helper/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "DC369A28-FC8A-4934-B563-3E567E13BEF3 - d708bfe1ce66845"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in TensorIoT.DatabaseManager.fetchDataFromDatabase(tName: Swift.String, child: Swift.String, completion: (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TensorIoT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/riddhimakwana/Desktop/TensorIoT/TensorIoT/Resource/Helper/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AB9873D-2A42-4F1B-A166-F0D31EDC0AF2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TensorIoT/Resource/Helper/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "fetchDataFromDatabase(tName:child:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
